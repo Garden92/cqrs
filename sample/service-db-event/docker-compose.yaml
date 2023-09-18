@@ -11,7 +11,7 @@ services:
   query:
     build: ./service-db-event-query
     ports:
-      - 8888:8888
+      - 8088:8888
     links:
       - kafka
 
